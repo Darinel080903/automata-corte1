@@ -1,0 +1,35 @@
+img{
+    object-fit: contain;
+    width: 50%;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input-text:focus {
+    border-color: #007bff; /* Cambia el color del borde al enfocar el input */
+    outline: none; /* Elimina el resplandor predeterminado al enfocar */
+}
